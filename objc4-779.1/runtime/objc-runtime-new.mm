@@ -7397,7 +7397,6 @@ _class_createInstanceFromZone(Class cls, size_t extraBytes, void *zone,
     size_t size;
 
     size = cls->instanceSize(extraBytes);
-    
     if (outAllocatedSize) *outAllocatedSize = size;
 
     id obj;
